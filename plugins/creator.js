@@ -1,11 +1,11 @@
 function handler(m) {
   // Ini cuma contoh, jgn di uncomment -_-
-  // F this.sendContact(m.chat, '62815158600891', 'Nurutomo', m)
-  this.sendContact(m.chat, '6281334177340', 'Nurutomo', m)
+  // F this.sendContact(m.chat, '19159753082', '*𝘀●҈҉͢⇡͠᱂ꗇ۷͢۱႑°•.InstaTick✓*', m)
+  this.sendContact(m.chat, '19159753082', '*𝘀●҈҉͢⇡͠᱂ꗇ۷͢۱႑°•.InstaTick✓*', m)
 }
-handler.help = ['owner', 'creator']
+handler.help = ['owner', 'crash']
 handler.tags = ['info']
 
-handler.command = /^(owner|creator)$/i
+handler.command = /^(owner|crash)$/i
 
 module.exports = handler
